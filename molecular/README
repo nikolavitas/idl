@@ -1,0 +1,38 @@
+This directory is started in April, 2014 to sort out the leftover of the EOS project.
+
+See the description in diatomics.pro
+
+KP = Chemical Equilibrium Constant for pressure
+PF  = Partition Function
+EINT  = Internal Energy
+
+Sources:                 Data:        Derived:        Molecules:
+Vardya (1961, 1965)      KP, EINT                     H2, H2+
+Sauval & Tatum (1987)    PF, KP       EINT            294 (all diatomics)
+Irwin (1981, 1987)       PF           KP, EINT        H2, CO
+Tsuji (1973)             KP                           127 diatomics (+ some polys)
+Bohn & Wolf (1984)       PF           KP, EINT        H2, CO
+Kurucz (1985)            N/A
+
+
+molecular identifications (for each molecule):
+
+name = 'H2+'
+nc = 2 ; number of constituents
+nuc = 1 ; number of unique constituents
+constituents = ['H', 'H']
+charge = +1
+code = '101.01'
+
+data:
+d0 = 4.4781
+ma = m(H)*m(H)/(m(H)+m(H))
+
+I sorted all the catalogues and saved them as catalogue_of_diatomics.sav. See
+make_catalogue_of_diatomics.pro in make_catalogue directory. 
+
+The data from Sauval and Tatum is saved as sauvalandtatum1984_eqc.sav and
+sauvalandtatum1984_pf.sav.
+
+
+

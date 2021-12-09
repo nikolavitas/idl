@@ -1,0 +1,8 @@
+catalogue_of_diatomics.sav  
+diatomics* 
+make_catalogue          
+translate_catalogue_to_f90.pro
+catalogue_of_molecules.F90  
+prepare_diatomics_for_nicole.pro 
+test_h2.pro
+
