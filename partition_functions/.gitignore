@@ -1,4 +1,4 @@
-*.F90
+**.F90
 translate_pfirwin_to_f90.pro
 prep_gray.pro
 pf_gray.dummy
