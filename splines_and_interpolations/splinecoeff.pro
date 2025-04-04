@@ -13,9 +13,9 @@
 ; AUTHOR:
 ;
 ;       Nikola Vitas
-;       Instituto de Astrofísica de Canarias (IAC)
-;       C/ Vía Láctea, s/n
-;       E38205 - La Laguna (Tenerife), España
+;       Instituto de AstrofÃ­sica de Canarias (IAC)
+;       C/ VÃ­a LÃ¡ctea, s/n
+;       E38205 - La Laguna (Tenerife), EspaÃ±a
 ;       Email: n.vitas@iac.es
 ;       Homepage: nikolavitas.blogspot.com
 ;
@@ -72,6 +72,10 @@
 ;================================================================================
 ; SplineCoeff by Nikola Vitas is licensed under a Creative Commons 
 ; Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+;
+; If you use this code in a publication, I would appreciate citing:
+;
+; https://github.com/nikolavitas/
 ;                                                                                          
 ; This software is provided by NV ''as is'' and any express or implied warranties, 
 ; including, but not limited to, the implied warranties of merchantability and 
